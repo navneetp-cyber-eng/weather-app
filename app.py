@@ -12,8 +12,8 @@ if st.button("search"):
     humidity=data["main"]["humidity"]
     condition=data["main"][0]["description"]
      st.write(f"Temperature: {temperature} °C")
-        st.write(f"Humidity: {humidity}%")
-        st.write(f"Condition: {condition}")
+     st.write(f"Humidity: {humidity}%")
+     st.write(f"Condition: {condition}")
 
     else:
         st.write("City not found")
