@@ -15,5 +15,5 @@ if st.button("search"):
     st.write(f"Humidity: {humidity}%")
     st.write(f"Condition: {condition}")
 
-    else:
-        st.write("City not found")
+  else:
+    st.write("City not found")
