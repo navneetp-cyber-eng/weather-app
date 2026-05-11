@@ -5,7 +5,7 @@ st.title("Weather App")
 
 city = st.text_input("Enter city name")
 
-API_KEY = "YOUR_API_KEY"
+API_KEY = "4454c555f68fdd56c020b7890cef84dc"
 
 if st.button("Search"):
 
