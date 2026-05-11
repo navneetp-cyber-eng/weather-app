@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 st.title("weather App")
 city=st.text_input("enter city name")
-API_KEY= 4454c555f68fdd56c020b7890cef84dc
+API_KEY= "4454c555f68fdd56c020b7890cef84dc"
 if st.button("search"):
   url=f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
   response=requests.get(url)
