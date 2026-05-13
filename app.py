@@ -15,7 +15,6 @@ if st.button("Search"):
 
     data = response.json()
 
-    st.write(data)
 
     if response.status_code == 200:
 
